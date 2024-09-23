@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape the Matrix</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Schwarzer Hintergrund */
+            color: #ff0000; /* Roter Text */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            width: 80%;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: #ff0000;
+            color: #000;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Escape the Matrix</h1>
+    <p id="matrix-explanation">
+        Die Matrix ist eine metaphorische Darstellung eines Systems, das die Menschen in einer Illusion gefangen hält, während die Realität oft ganz anders aussieht. Es steht für gesellschaftliche Erwartungen, Normen und Zwänge, die das Leben vieler Menschen bestimmen. 
+        <br><br>
+        Um wirklich frei zu sein, muss man sich von diesen mentalen und gesellschaftlichen Ketten befreien, die eigene Realität hinterfragen und das System verlassen, das uns gefangen hält. Es ist eine Reise in die Selbstverwirklichung und Unabhängigkeit.
+    </p>
+    <button onclick="revealText()">Mehr erfahren</button>
+
+    <script>
+        function revealText() {
+            alert('Verlasse die Matrix und finde die wahre Freiheit!');
+        }
+    </script>
+
+</body>
+</html>
